@@ -61,67 +61,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Benutzer.cs" />
-    <Compile Include="BenutzerManager.cs" />
-    <Compile Include="Datum.cs" />
-    <Compile Include="Drucker.cs" />
-    <Compile Include="ErweiterteAnsicht.cs">
+    <Compile Include="Klassen\Benutzer.cs" />
+    <Compile Include="Klassen\BenutzerManager.cs" />
+    <Compile Include="Klassen\Datum.cs" />
+    <Compile Include="Klassen\Drucker.cs" />
+    <Compile Include="Pages\ErweiterteAnsicht.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ErweiterteAnsicht.Designer.cs">
+    <Compile Include="Pages\ErweiterteAnsicht.Designer.cs">
       <DependentUpon>ErweiterteAnsicht.cs</DependentUpon>
     </Compile>
-    <Compile Include="FarbSchema.cs" />
-    <Compile Include="Hauptseite.cs">
+    <Compile Include="Klassen\FarbSchema.cs" />
+    <Compile Include="Pages\Hauptseite.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Hauptseite.Designer.cs">
+    <Compile Include="Pages\Hauptseite.Designer.cs">
       <DependentUpon>Hauptseite.cs</DependentUpon>
     </Compile>
-    <Compile Include="Anmeldungsseite.cs">
+    <Compile Include="Pages\Anmeldungsseite.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Anmeldungsseite.Designer.cs">
+    <Compile Include="Pages\Anmeldungsseite.Designer.cs">
       <DependentUpon>Anmeldungsseite.cs</DependentUpon>
     </Compile>
-    <Compile Include="LokaleDaten.cs" />
-    <Compile Include="DatenspeicherManager.cs" />
-    <Compile Include="Registrierungsseite.cs">
+    <Compile Include="Klassen\LokaleDaten.cs" />
+    <Compile Include="Klassen\DatenspeicherManager.cs" />
+    <Compile Include="Pages\Registrierungsseite.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Registrierungsseite.Designer.cs">
+    <Compile Include="Pages\Registrierungsseite.Designer.cs">
       <DependentUpon>Registrierungsseite.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kondition.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Klassen\Kondition.cs" />
+    <Compile Include="Klassen\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SchemaSammlung.cs" />
-    <EmbeddedResource Include="ErweiterteAnsicht.resx">
+    <Compile Include="Klassen\SchemaSammlung.cs" />
+    <EmbeddedResource Include="Pages\ErweiterteAnsicht.resx">
       <DependentUpon>ErweiterteAnsicht.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hauptseite.resx">
+    <EmbeddedResource Include="Pages\Hauptseite.resx">
       <DependentUpon>Hauptseite.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Anmeldungsseite.resx">
+    <EmbeddedResource Include="Pages\Anmeldungsseite.resx">
       <DependentUpon>Anmeldungsseite.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Registrierungsseite.resx">
+    <EmbeddedResource Include="Pages\Registrierungsseite.resx">
       <DependentUpon>Registrierungsseite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -138,13 +138,13 @@
     <None Include="Resources\png-transparent-computer-icons-login-person-user-pessoa-smiley-desktop-wallpaper-address-icon-thumbnail.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\kisspng-computer-icons-google-account-icon-design-login-5afc02dab4a218.0950785215264652427399.jpg" />
+    <None Include="Resources\account-icon.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Datenspeicher\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\there_is_a_fire_starting_in_my_heart_raching-removebg-preview.png" />
+    <None Include="Resources\login.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -159,9 +159,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Bild_2023-05-23_211915659-removebg-preview.png" />
-    <None Include="Resources\Bild_2023-05-23_212218666-removebg-preview.png" />
-    <None Include="Resources\Bild_2023-05-23_211915659-removebg-preview1.png" />
+    <Content Include="Resources\drucker-V1.png" />
+    <None Include="Resources\drucker-V2.png" />
+    <None Include="Resources\drucker-V3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
