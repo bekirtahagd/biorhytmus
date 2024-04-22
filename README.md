@@ -7,3 +7,14 @@
 *   14/70-Tage-Prognose der psychischen geistigen und körperlichen Gesundheit
 *   Lokales Anmelde- und Registrierungssystem / Profilerstellung
 *   Drucken der Prognoseergebnisse
+
+<h2>Preview</h2>
+
+![App Screenshot](./PreviewImages/Homepage-Dark-Mode.png)
+
+![App Screenshot](./PreviewImages/Anmeldeseite-Dark-Mode.png)
+![App Screenshot](./PreviewImages/Anmeldeseite-White-Mode.png)
+
+![App Screenshot](./PreviewImages/Druck-Feature.png)
+
+![App Screenshot](./PreviewImages/Homepage-White-Mode.png)
