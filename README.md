@@ -1,5 +1,7 @@
 <h1 align="center" id="title">Bioryhtmus-Calculator</h1>
 
+<p align="center"><img src="https://socialify.git.ci/bekirtahagd/biorhytmus/image?font=KoHo&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Signal&amp;theme=Light" alt="project-image"></p>
+
 <p id="description">Bei Angabe des Geburtsdatum wird eine Prognose für die psychische geistige und körperliche Gesundheit berechnet. Dabei erhält man für jede Kategorie einen Prozentwert von 0 bis 100 Prozent. Dazu kann man sich mehrere lokale Accounts erstellen um die angegebenen Daten zu speichern. Somit kann man zwischen unterschiedlichen Accounts/ Profilen wechseln. Außerdem gibt es die Funktion die Prognosewerte auszudrucken.</p>
 
 <h2>🧐 Funktionen</h2>
